@@ -9,11 +9,10 @@ build-mindetach-module = true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-build-mode = "module"
-version = "18.25.40"
-included-patches = "custom-branding-icon-mmt force-premium-heading materialyou"
-excluded-patches = "change-homepage custom-branding-youtube-name custom-branding-icon-revancify-blue custom-package-name microg-support spoof-app-version"
+build-mode = "both"
+excluded-patches = "custom-branding-youtube-name custom-branding-icon-revancify-blue custom-double-tap-length custom-package-name disable-hdr-video microg-support"
 
 [YouTube-Extended]
 enabled = false
